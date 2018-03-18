@@ -48,13 +48,14 @@
 				<textarea name="message" class="form-control" name="message" placeholder="Message"></textarea>
 			</div>
 		</div>
-<!-- 
+
 		<div class="col-sm-12">
 			<div class="form-group">
-				<input type="hidden" name="MAX_FILE_SIZE" value="10000000"><input name="userfile" type="file">
+			<!-- work html5 >=ie10 -->
+				<input type="hidden" name="MAX_FILE_SIZE" value="10000000"><input name="userfile[]" multiple="multiple"  type="file">
 			</div>
 		</div>
- -->		
+		
 		<div class="col-sm-12">
 			<div class="form-group">
 				<input type="submit" class="as21-submit btn btn-primary" data-form="as21-contact-form" value="Send">
